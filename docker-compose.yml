@@ -7,7 +7,7 @@ services:
       - ./.env
     volumes:
       - .:/usr/src/app
-      - bundle:/bundle
+      - bundle:/usr/local/bundle
     ports:
       - "3000:3000"
     depends_on:
